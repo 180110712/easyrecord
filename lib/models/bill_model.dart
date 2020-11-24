@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-final String columnId = '_id';
+final String columnId = 'id';
 final String columnCost = 'cost';
 final String columnMainType = 'mainType';
 final String columnSubType = 'subType';
@@ -19,7 +19,7 @@ class Item {
   num cost; //金额
   String mainType; //一级类型
   String subType; //二级类型
-  int type; //{1:"支出",2:"收入"3:"转入",4:"转出",}
+  int type; //{1:"支出",2:"收入"3:"转帐",}
   String account; //账户
   String member; //成员
   int createTimeStamp; //创建的时间戳
